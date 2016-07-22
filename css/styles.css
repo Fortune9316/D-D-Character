@@ -1,0 +1,50 @@
+*html, body {margin 0; padding: 0;}
+
+body {
+	background-color: #090808 !important;
+}
+#container{
+	width: 90%;
+	height: 90%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #090808;
+    color: #E6E6E6;
+}
+#pic{
+	background-color: #000;
+	width: 30%;
+	float: left;
+}
+#pic img{
+	width: 100%;
+}
+#data{
+	width: 60%;
+	height: 55%;
+	float: right;
+}
+input[type="text"]
+{
+    background: transparent;
+}
+.notEditable{
+	border: none;
+}
+#spells{
+	width: 100%;
+	height: 45%;
+	clear: both;
+}
+table{
+	width: 100%;
+}
+table td{
+	width: 10%;
+}
+.titulo{
+	width: 5%;
+}
